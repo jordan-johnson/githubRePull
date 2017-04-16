@@ -52,7 +52,7 @@ var rePull = {
 
 				rePull.createCleanRepos();
 			}
-		})
+		});
 	},
 
 	/**
