@@ -23,14 +23,14 @@ onComplete: function() {
 }
 ```
 
-And that's pretty much it! I've already provided the basic repo information:
+And that's pretty much it! Now you can call the getRepos method and you'll receive the following fields for your repos:
 
 * Name
 * Description
 * Language
 * Repo URL
 
-If you want more repo information, open the URL below (obviously change to your github profile) to see additional options.
+If you want more fields, open the URL below (obviously change to your github profile) to see additional options.
 
 ```
 https://api.github.com/users/<GITHUB_PROFILE>/repos
