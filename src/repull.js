@@ -1,4 +1,15 @@
 /**
+ * rePull for GitHub
+ *
+ * Feel free to edit anything you like!
+ *
+ * @description Pulls list of your repos from GitHub
+ * @author 		Jordan Johnson
+ * @site		https://github.com/jordan-johnson
+ * @version 	1.1
+ */
+
+/**
  * Change this to your github username
  */
 var github_username = 'jordan-johnson';
@@ -35,8 +46,6 @@ var rePull = {
 
 			rePull.cleanRepos.push(obj);
 		});
-
-		rePull.onComplete();
 	},
 
 	/**
@@ -51,6 +60,7 @@ var rePull = {
 				rePull.jsonRepos = json;
 
 				rePull.createCleanRepos();
+				rePull.onComplete();
 			}
 		});
 	},
